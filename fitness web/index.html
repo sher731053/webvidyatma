@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Fitness</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stytlesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url(3702281.jpg);
+            background-size: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: fixed;
+
+        }
+
+        .left {
+            /* border: 2px solid rgb(76, 110, 116); */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .left img {
+            top: 0px;
+            width: 90px;
+            /* filter: invert(100%); */
+        }
+
+        .left div {
+            text-align: center;
+            color: white;
+        }
+
+        .left div:hover {
+            color: rgb(226, 252, 62);
+            cursor: pointer;
+            text-shadow: 4px 4px 4px rgb(214, 214, 127);
+        }
+
+
+        .mid {
+            display: block;
+            width: 40%;
+            font-size: 16px;
+            margin: 20px auto;
+            /* border: 2px solid rgb(101, 225, 0); */
+        }  
+
+        .mid a {
+            font-size: large;
+        }
+
+
+        .right {
+            /* border: 2px solid rgb(209, 233, 22); */
+            width: 20%;
+            position: absolute;
+            right: 0px;
+            top: 20px;
+            display: inline-block;
+            gap: 32px;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            text-shadow: 4px 4px 4px rgb(235, 235, 200);
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(247, 232, 94);
+            text-shadow: 4px 4px 4px rgb(86, 33, 33);
+        }
+
+        .btn {
+            background-color: transparent;
+            margin: 3px;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: rgba(236, 236, 143, 0.621);
+            text-shadow: 4px 4px 4px rgb(86, 33, 33);
+            padding: 9px 10px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+
+        .btn:hover {
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        .container {
+            border: 4px solid white;
+            margin: 100px 70px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 20px;
+            
+        }
+        .container h1:hover{
+            text-shadow: 4px 4px 4px rgb(86, 8, 8);
+            color: rgb(236, 160, 141);
+            cursor: pointer;
+        }
+
+        form input {
+            font-family: cursive;
+            font-weight: bold;
+            text-align: center;
+            display: block;
+            width: 508px;
+            margin: 11px auto;
+            padding: 1px;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: 25px;
+        }
+
+        #btn {
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box fir logo -->
+        <div class="left">
+            <img src="t-shirt-fitness-centre-bodybuilding-personal-trainer-olympic-weightlifting-gorilla-8ce89f5fe32b2818822f03778cb5bdcc.png"
+                alt="">
+            <div>Harry Fitness</div>
+
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">fitness calculator</a></li>
+                <li><a href="">Contact US</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <butoon class="btn">Call US Now</butoon>
+            <button class="btn">E-mail US Now</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 id="head">Join Best GYM Of Mathura</h1>
+        <form action="noaction.php">
+            <div class="frm">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="frm">
+                <input type="text" placeholder="Enter Your  Age">
+            </div>
+            <div class="frm">
+                <input type="text" placeholder="Enter Your height">
+            </div>
+            <div class="frm">
+                <input type="text" placeholder="Enter Your Weight ">
+            </div>
+            <button class="btn" id="btn">Submit</button>
+        </form>
+    </div>
+
+    <div class="hammer">
+        <img src="" alt="">
+    </div>
+
+
+
+</body>
+
+</html>
